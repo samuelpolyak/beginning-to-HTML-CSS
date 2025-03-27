@@ -1,0 +1,40 @@
+body { 
+    background-color: azure;
+}
+
+
+#container {
+    background-color: blanchedalmond;
+    width: 1200px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+img {
+    display: block;
+            margin: 20px auto;
+            width: 600px;
+
+}
+
+nav{
+    text-align: center;
+    margin: 20px;
+}
+
+nav a {
+    font-size: 24px;
+    color:black;
+    margin: 0 20px;
+    font-weight: bold;
+
+}
+
+nav a:hober {
+    text-decoration: none;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+}
