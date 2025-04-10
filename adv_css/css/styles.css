@@ -2,19 +2,32 @@ body {
     background-color: azure;
 }
 
+.country_post {
+    width: 50%;
+}
 
 #container {
     background-color: rgb(255, 255, 255);
-    width: 1200px;
+    width: 65%;
     margin: 20px auto;
     border: 2px solid black;
     padding: 20px;
 }
 
+#banner {
+    width: 100%;
+}
+
+.heading_style {
+    text-shadow: 2px 1px 2px #7ac6e4;
+}
+
+
+
 img {
     display: block;
             margin: 20px auto;
-            width: 600px;
+            width: 100%;
 
 }
 
@@ -23,16 +36,53 @@ nav{
     margin: 20px;
 }
 
-nav a {
-    font-size: 24px;
-    color:black;
-    margin: 0 20px;
-    font-weight: bold;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #7ac6e4;
+    border-radius: 20px;
 
 }
 
-nav a  {
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
     text-decoration: none;
+    margin: 14px;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color:black;
+}
+
+
+#two_col {
+    display: flex;
+}
+
+#col1 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#col2 {
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
 }
 
 h1, h2, h3, footer {
