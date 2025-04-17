@@ -84,7 +84,6 @@ img {
     .country_post {
         width: 50%;
         border-radius: 10px;
-        box-shadow:#000;
     }
 }
 
@@ -120,6 +119,6 @@ img {
     .col {
         margin: 20px;
         padding: 20px;
-        border: 4px sold black;
+        border: 4px solid black;
     }
 }
