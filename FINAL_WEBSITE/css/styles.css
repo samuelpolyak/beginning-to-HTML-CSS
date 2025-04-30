@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-    background-color: #45B1DF;
+    background-color: #2ac1cc;
 }
 
 img {
@@ -12,13 +12,13 @@ img {
 }
 
 #container {
-    background-color: #B5CBE0;
+    background-color: #ffffff;
 }
 
 /* Mobile Styles */
 @media (min-width: 320px) {
     nav {
-        background-color:#BB8489;
+        background-color:#ffffff;
         padding: 5px;
         margin-top: 10px;
     }
@@ -36,33 +36,33 @@ img {
         display: block;
         height: 30px;
         line-height: 30px;
-        background-color: #BB8489;
-        color:white;
+        background-color: #2ac1cc;
+        color:rgb(29, 206, 212);
         font-size: 24px;
         text-decoration: none;
         margin-top: 3px;
     }
 
     nav li a:hover {
-        background-color: #817CCC;
+        background-color: #2ac1cc;
     }
 
     main {
-        padding: 20px;
+        padding: 30px;
 
     }
 
 
     h1,h2,h3 {
         text-align: center;
-        color: #686866;
-        text-shadow: 1px 1px 1px #000;
+        color: #24e0d7;
+        text-shadow: 1px 1px 1px #000000;
     }
 
     footer {
         text-align: center;
         padding: 40px;
-        color: #686866;
+        color: #2ac1cc;
         text-shadow: 1px 1px 1px #000;
     }
 }
